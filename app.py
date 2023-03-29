@@ -52,6 +52,8 @@ def check_for_freebies(description):
 @app.route('/')
 def home():
     today = str(datetime.today().strftime('%m-%d'))
+    # return render_template('index.html', freebies=[('https://www.google.com', 'test')], date=today)  # TEMP debugging
+
     events = get_events('https://events.umich.edu/day/2023-' + today)
     freebies = filter_events(events)
 

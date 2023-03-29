@@ -1,9 +1,11 @@
-"""A scheduled task that runs every night, overwriting scores_2020s.py with updated scores."""
 import os
 
+from flask import Flask, render_template
 from urllib.request import Request, urlopen
 import re
 from bs4 import BeautifulSoup
+
+app = Flask(__name__, template_folder='templates/', static_folder='static/')
 
 
 def get_events(url):
@@ -33,7 +35,8 @@ def filter_events(events):
         try:
             description = soup.find(class_='event-description-text').text
             if check_for_freebies(description):
-                freebie_events.append(url)
+                title = soup.find(class_='title').text
+                freebie_events.append((url, title))
         except:
             continue
     return freebie_events
@@ -45,9 +48,9 @@ def check_for_freebies(description):
     return False
 
 
-if __name__ == '__main__':
+@app.route('/')
+def home():
     events = get_events('https://events.umich.edu/day/2023-03-29')
-    output = filter_events(events)
-    with open('freebies.txt','w') as data:
-        for event in output:
-            data.write(str(event) + '\n')
+    freebies = filter_events(events)
+
+    return render_template('index.html', freebies=freebies)

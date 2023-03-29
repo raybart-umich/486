@@ -1,0 +1,19 @@
+<html>
+    <head> </head>
+
+    <body>
+        <div class="container">
+            <div class="toppane">
+                <h1>FreebieFinder</h1>
+            </div>
+
+            <div id="freebies">
+                {% for event in freebies %}
+                <h3>
+                    <a href={{ event[0] }} target="_blank">{{ event[1] }}</a>
+                </h3>
+                {% endfor %}
+            </div>
+        </div>
+    </body>
+</html>

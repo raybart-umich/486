@@ -4,6 +4,7 @@ from flask import Flask, render_template
 from urllib.request import Request, urlopen
 import re
 from bs4 import BeautifulSoup
+from datetime import datetime
 
 app = Flask(__name__, template_folder='templates/', static_folder='static/')
 
@@ -50,7 +51,8 @@ def check_for_freebies(description):
 
 @app.route('/')
 def home():
-    events = get_events('https://events.umich.edu/day/2023-03-29')
+    today = str(datetime.today().strftime('%m-%d'))
+    events = get_events('https://events.umich.edu/day/2023-' + today)
     freebies = filter_events(events)
 
-    return render_template('index.html', freebies=freebies)
+    return render_template('index.html', freebies=freebies, date=today)

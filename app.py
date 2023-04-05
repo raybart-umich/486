@@ -1,60 +1,18 @@
-import os
-
 from flask import Flask, render_template
-from urllib.request import Request, urlopen
-import re
-from bs4 import BeautifulSoup
-from datetime import datetime
+from datetime import date, timedelta
+
+from happening import get_events_happening
+from happening import filter_events_happening
 
 app = Flask(__name__, template_folder='templates/', static_folder='static/')
 
 
-def get_events(url):
-    """Retrieve events from URL."""
-    events = []
-    base = 'https://events.umich.edu'
-
-    req = Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-    page = urlopen(req).read()
-    soup = BeautifulSoup(page, 'html.parser')
-    results = soup.findAll(True, {'class':['event-listing', 'event-listing event-single']})
-
-    for result in results:
-        href = result.find(class_='btn learn-more').attrs['href']
-        url = base + href
-        events.append(url)
-
-    return events
-
-
-def filter_events(events):
-    freebie_events = []
-    for url in events:
-        req = Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-        page = urlopen(req).read()
-        soup = BeautifulSoup(page, 'html.parser')
-        try:
-            description = soup.find(class_='event-description-text').text
-            if check_for_freebies(description):
-                title = soup.find(class_='title').text
-                freebie_events.append((url, title))
-        except:
-            continue
-    return freebie_events
-
-
-def check_for_freebies(description):
-    if 'free' in str(description):
-        return True
-    return False
-
-
 @app.route('/')
 def home():
-    today = str(datetime.today().strftime('%m-%d'))
-    # return render_template('index.html', freebies=[('https://www.google.com', 'test')], date=today)  # TEMP debugging
+    events = []
+    freebies = []
+    for day in (date.today() + timedelta(n) for n in range(7)):
+        events.extend(get_events_happening('https://events.umich.edu/day/' + str(day)))
+    freebies.extend(filter_events_happening(events))
 
-    events = get_events('https://events.umich.edu/day/2023-' + today)
-    freebies = filter_events(events)
-
-    return render_template('index.html', freebies=freebies, date=today)
+    return render_template('index.html', freebies=freebies)

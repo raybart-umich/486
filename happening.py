@@ -1,12 +1,8 @@
-"""A scheduled task that runs every night, overwriting scores_2020s.py with updated scores."""
-import os
-
 from urllib.request import Request, urlopen
-import re
 from bs4 import BeautifulSoup
+from helpers import check_for_freebies
 
-
-def get_events(url):
+def get_events_happening(url):
     """Retrieve events from URL."""
     events = []
     base = 'https://events.umich.edu'
@@ -24,7 +20,7 @@ def get_events(url):
     return events
 
 
-def filter_events(events):
+def filter_events_happening(events):
     freebie_events = []
     for url in events:
         req = Request(url, headers={'User-Agent': 'Mozilla/5.0'})
@@ -33,21 +29,8 @@ def filter_events(events):
         try:
             description = soup.find(class_='event-description-text').text
             if check_for_freebies(description):
-                freebie_events.append(url)
+                title = soup.find(class_='title').text
+                freebie_events.append((url, title))
         except:
             continue
     return freebie_events
-
-
-def check_for_freebies(description):
-    if 'free' in str(description):
-        return True
-    return False
-
-
-if __name__ == '__main__':
-    events = get_events('https://events.umich.edu/day/2023-03-29')
-    output = filter_events(events)
-    with open('freebies.txt','w') as data:
-        for event in output:
-            data.write(str(event) + '\n')

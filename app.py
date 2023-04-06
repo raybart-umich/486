@@ -9,10 +9,9 @@ app = Flask(__name__, template_folder='templates/', static_folder='static/')
 
 @app.route('/')
 def home():
-    events = []
     freebies = []
-    for day in (date.today() + timedelta(n) for n in range(7)):
-        events.extend(get_events_happening('https://events.umich.edu/day/' + str(day)))
-    freebies.extend(filter_events_happening(events))
+    with open('events.txt', 'r') as f:
+        for line in f:
+            freebies.append(line.rstrip().split('\t'))
 
     return render_template('index.html', freebies=freebies)

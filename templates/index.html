@@ -17,7 +17,7 @@
                         <h3 class="day">
                             {{ date }}
                         </h3>
-                        {%for event in freebies[date][0]%}
+                        {%for event in freebies[date]%}
                         <h3>
                             <a class="links" href={{ event[0] }} target="_blank">{{ event[1] }}</a>
                         </h3>

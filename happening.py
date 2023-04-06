@@ -1,6 +1,7 @@
 from urllib.request import Request, urlopen
 from bs4 import BeautifulSoup
 from helpers import check_for_freebies
+from unidecode import unidecode
 
 def get_events_happening(url):
     """Retrieve events from URL."""
@@ -30,7 +31,7 @@ def filter_events_happening(events):
             description = soup.find(class_='event-description-text').text
             if check_for_freebies(description):
                 title = soup.find(class_='title').text
-                freebie_events.append((url, title))
+                freebie_events.append((url, unidecode(title.strip())))
         except:
             continue
     return freebie_events

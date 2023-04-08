@@ -28,5 +28,5 @@ if __name__ == "__main__":
         if not any(event[1] == session[1] for event in freebies[dayo]):
             freebies[dayo].append((session[0], session[1]))
 
-    with open("events.txt", "w") as f:
+    with open("/home/martinvv/FreebieFinder/events.txt", "w") as f:
         f.write(json.dumps(freebies))

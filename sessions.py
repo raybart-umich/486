@@ -33,6 +33,5 @@ def filter_events_sessions(events):
             url = str(event[0].find("a")['href'])
             url = base + url
             freebie_events.append((url, unidecode(title.strip()), event[1]))
-    print(freebie_events)
     return freebie_events
 

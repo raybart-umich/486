@@ -1,14 +1,6 @@
-import requests
-from bs4 import BeautifulSoup
-from helpers import check_for_freebies
+from helpers import check_for_freebies, get_soup
 from unidecode import unidecode
 
-def get_soup(url):
-    s = requests.Session()
-    s.headers.update({'User-Agent': 'Mozilla/5.0'})
-    req = s.get(url=url)
-    page = req.text
-    return BeautifulSoup(page, 'html.parser')
 
 def get_events_happening(url):
     """Retrieve events from URL."""
@@ -16,7 +8,7 @@ def get_events_happening(url):
     base = 'https://events.umich.edu'
 
     soup = get_soup(url)
-    results = soup.findAll(True, {'class':['event-listing', 'event-listing event-single']})
+    results = soup.find_all(True, {'class':['event-listing', 'event-listing event-single']})
 
     for result in results:
         href = result.find(class_='btn learn-more').attrs['href']

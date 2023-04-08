@@ -6,10 +6,16 @@ static: The static folder contains the images and the css used in the front-end 
 
 templates: The templates folder contains the html file that houses all of the content for the webpage.
 
-app.py: This file puts together the functions in happening.py. For a certain date range, this file gathers and then filters the events from both websites. This is the file accessed by the html file for the event information and links.
+happening.py: This file has functions that scrape Happening@Michigan websites for events and then filters down those events.
 
-happening.py: This file has functions that scrape both websites for events and then filters down those events.
+sessions.py: This file contains functions that scrape Sessions@Michigan.
 
-helpers.py: This file contains the function we use to filer through events to determine whether or not there are free things offered at said events.
+get_events.py: This file puts together the functions in happening.py and sessions.py. For a certain date range, this file gathers and then filters the events from both websites. It then stores these results in JSON format locally in events.txt.
+
+app.py: This file reads events.txt, which contains our scraping output. It then renders this output into our webpage. This contains the Flask app.
+
+helpers.py: This file contains the function we use to filter through events to determine whether or not there are free things offered at said events. It also contains our use of BeautifulSoup.
+
+reload_script.py: This script uses PythonAnywhere's API to manually reload our page with new results. The script is scheduled to execute a couple minutes after new results have been fetched.
 
 requirements.txt: This file contains all the libraries needed to execute the code.

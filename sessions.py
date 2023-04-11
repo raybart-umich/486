@@ -24,6 +24,7 @@ def get_events_sessions(url):
 
 
 def filter_events_sessions(events):
+    """Limits events to those that are relevant."""
     freebie_events = []
     base = 'https://sessions.studentlife.umich.edu'
     for event in events:

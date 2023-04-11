@@ -6,7 +6,12 @@ from happening import filter_events_happening
 from sessions import get_events_sessions
 from sessions import filter_events_sessions
 
-if __name__ == "__main__":
+
+def get_events():
+    """
+    Uses functions from happening.py, sessions.py, and helpers.py to
+    retrieve relevant events and store them in our intended format.
+    """
     events_happening = {}
     events_sessions = []
     freebies = {}
@@ -30,3 +35,5 @@ if __name__ == "__main__":
 
     with open("events.json", "w") as f:
         f.write(json.dumps(freebies))
+if __name__ == "__main__":
+    get_events()

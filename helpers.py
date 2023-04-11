@@ -6,6 +6,10 @@ nltk.download('averaged_perceptron_tagger')
 nltk.download('punkt')
 
 def check_for_freebies(description):
+    """
+    Scans provided event description for 
+    keywords and parts of speech.
+    """
 
     description_lst = description.split()
     punct = '''!()-[]{};:'"\,<>./?@#$%^&*_~'''
@@ -32,6 +36,10 @@ def check_for_freebies(description):
     return False
 
 def get_soup(url):
+    """
+    Establishes connection to event url and
+    returns BeautifulSoup object.
+    """
     s = requests.Session()
     s.headers.update({'User-Agent': 'Mozilla/5.0'})
     req = s.get(url=url)
@@ -39,6 +47,10 @@ def get_soup(url):
     return BeautifulSoup(page, 'html.parser')
 
 def calc_precision_and_recall():
+    """
+    For project summary use only. 
+    Computes dataset precision and recall.
+    """
     retrieved = open("retrieved.txt", "r")
     full_data = open("full_data_set.txt", "r")
     list_of_retrieved = retrieved.readlines()

@@ -6,6 +6,7 @@ app = Flask(__name__, template_folder='templates/', static_folder='static/')
 
 @app.route('/')
 def home():
+    """Renders Flask app from events.json"""
     freebies = {}
     with open("events.json", "r") as f:
         freebies = json.loads(f.read())

@@ -3,7 +3,7 @@ from unidecode import unidecode
 
 
 def get_events_happening(url):
-    """Retrieve events from URL."""
+    """Retrieves events from URL."""
     events = []
     base = 'https://events.umich.edu'
 
@@ -19,6 +19,7 @@ def get_events_happening(url):
 
 
 def filter_events_happening(events):
+    """Limits events to those that are relevant."""
     freebie_events = []
     for url in events:
         soup = get_soup(url)

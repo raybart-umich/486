@@ -19,3 +19,5 @@ helpers.py: This file contains the function we use to filter through events to d
 reload_script.py: This script uses PythonAnywhere's API to manually reload our page with new results. The script is scheduled to execute a couple minutes after new results have been fetched.
 
 requirements.txt: This file contains all the libraries needed to execute the code.
+
+annotated_data.txt: This file contains the manually labelled events that we used to calculate precision and recall for our project.

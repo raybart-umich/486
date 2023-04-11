@@ -37,3 +37,41 @@ def get_soup(url):
     req = s.get(url=url)
     page = req.text
     return BeautifulSoup(page, 'html.parser')
+
+def calc_precision_and_recall():
+    retrieved = open("retrieved.txt", "r")
+    full_data = open("full_data_set.txt", "r")
+    list_of_retrieved = retrieved.readlines()
+    count = 0
+    relevant = 0
+    not_relevant = 0
+    for line in list_of_retrieved:
+        count += 1
+        if(line[0] == "*"):
+            relevant += 1
+        if(line[0] == "#"):
+            not_relevant += 1
+
+    list_of_full_data = full_data.readlines()
+    total_relevant = 0
+    rel_not_retrieved = 0
+    not_and_irrel = 0
+    for line in list_of_full_data:
+        if (line[0] == "!" or line[0] == "*"):
+            total_relevant += 1
+            if (line[0] == "!"):
+                rel_not_retrieved += 1
+        if (line[0] == "-"):
+            not_and_irrel += 1
+
+
+    
+    precision = relevant/count
+    recall = relevant/total_relevant
+    print("Precision = " + str(precision))
+    print("Recall = " + str(recall))
+    print("Retrieved & Relevant = " + str(relevant))
+    print("Retrieved & Not Relevant = " + str(not_relevant))
+    print("Not Retrieved & Relevant = " + str(rel_not_retrieved))
+    print("Not Retrieved & Irrelevant = " + str(not_and_irrel))
+    

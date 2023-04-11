@@ -1,5 +1,6 @@
 from flask import Flask, render_template
 import json
+from helpers import calc_precision_and_recall
 
 app = Flask(__name__, template_folder='templates/', static_folder='static/')
 

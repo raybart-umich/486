@@ -4,6 +4,7 @@ KEY:
     # = Not Relevant & Retrieved
     - = Not Retrieved & Not Relevant 
 
+Raw Data found at events.txt
 
 
 Retrieved & Annotated:

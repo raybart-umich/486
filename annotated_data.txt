@@ -1,0 +1,139 @@
+KEY:
+    * = Relevant & Retrieved
+    ! = Relevant & Not Retrieved
+    # = Not Relevant & Retrieved
+    - = Not Retrieved & Not Relevant 
+
+
+
+Retrieved & Annotated:
+
+* https://events.umich.edu/event/106636 LSA@Play: Surprise Pop-Up & Cool Down || RELEVANT (free food, LSA swag)
+# https://events.umich.edu/event/107092 Understanding Special Education || NOT relevant
+# https://events.umich.edu/event/106606 Parenting Through Separation and Divorce Virtual Workshop – Spring 2023 || NOT relevant
+# https://events.umich.edu/event/107209 The Academy @Bank of America education site launch || NOT relevant
+* https://events.umich.edu/event/104393 CLaSP - GUStO Half-Baked Student Seminar & Conversation || RELEVANT (free snacks)
+* https://events.umich.edu/event/107241 VIP's Fund Crochet-A-Thon! || RELEVANT (free crochet kit giveaway)
+# https://events.umich.edu/event/106960 Spring Fling Swing Dance || NOT relevant
+# https://events.umich.edu/event/105355 MSwing Lesson + Open Dance || NOT relevant 
+* https://events.umich.edu/event/105943 Next Stop: Grad School || RELEVANT
+* https://events.umich.edu/event/107272 ​​CoE Portrait Sessions || RELEVANT (free portraits)
+# https://events.umich.edu/event/106573 Special Interdisciplinary QC-CM Seminar | Manipulating Light-Matter Interactions in Structured Dielectric Media || NOT relevant
+* https://events.umich.edu/event/105942 Sunday Study Day & Movie Matinee || RELEVANT (free coffee and snacks)
+# https://events.umich.edu/event/103009 WSN Self-Care Sunday || NOT Relevant
+
+Full Data Space:
+
+- https://events.umich.edu/event/101896 Histology Core Facility || NOT relevant
+# https://events.umich.edu/event/107092 Understanding Special Education || NOT Relevant
+# https://events.umich.edu/event/106606 Parenting Through Separation and Divorce Virtual Workshop – Spring 2023 || NOT relevant
+# https://events.umich.edu/event/107209 The Academy @Bank of America education site launch || NOT relevant
+- https://events.umich.edu/event/105542 Become a UROP Symposium Judge || NOT relevant
+! https://events.umich.edu/event/106132 FREE Resource Hub for Student Orgs || RELEVANT (free supplies to rent)
+* https://events.umich.edu/event/104393 CLaSP - GUStO Half-Baked Student Seminar & Conversation || RELEVANT (free snacks)
+- https://events.umich.edu/event/101826 Early Astronomy in the University of Michigan Collections || NOT Relevant
+* https://events.umich.edu/event/106636 LSA@Play: Surprise Pop-Up & Cool Down || RELEVANT
+! https://events.umich.edu/event/105311 Togetherness: QTBIPOC Gatherings || RELEVANT (Free food and drinks)
+- https://events.umich.edu/event/103072 Cathy Barry Connatural Art Exhibition || NOT Relevant
+# https://events.umich.edu/event/106960 Spring Fling Swing Dance || NOT relevant
+- https://events.umich.edu/event/103055 Family Secrets: Uncovering Identity in 19th-Century America || NOT Relevant
+- https://events.umich.edu/event/104490 Openings: Title Pages in the History of Printed Books || NOT Relevant
+* https://events.umich.edu/event/107241 VIP's Fund Crochet-A-Thon! || RELEVANT (free crochet kit giveaway)
+- https://events.umich.edu/event/107128 Study Tables || NOT Relevant
+- https://events.umich.edu/event/106630 Launching the Webb Telescope: Managing Global Teams In Turbulent Times || NOT Relevant
+! https://events.umich.edu/event/105399 Leadership Dialogues: Kofi Bruce || RELEVANT (catered reception)
+# https://events.umich.edu/event/105355 MSwing Lesson + Open Dance || NOT relevant 
+- https://events.umich.edu/event/105121 UN/EARTH || NOT Relevant
+- https://events.umich.edu/event/103225 A Splash of Microbe Science || NOT Relevant
+! https://events.umich.edu/event/106892 Considering an Academic Career? || RELEVANT (lunch will be provided)
+! https://events.umich.edu/event/107186 North Quad Play Space Social || RELEVANT (light lunch will be provided)
+- https://events.umich.edu/event/106326 Student Stress Reduction: Therapy Dogs || NOT Relevant
+* https://events.umich.edu/event/107272 ​​CoE Portrait Sessions || RELEVANT (free portraits)
+! https://events.umich.edu/event/107415 Michigan Meetups: Collaging || RELEVANT (make collages)
+- https://events.umich.edu/event/106648 Lavender Graduation 2023 || NOT Relevant
+- https://events.umich.edu/event/97253 Hopwood Reading: Alison Bechdel || NOT Relevant
+- https://events.umich.edu/event/106604 Understanding and Managing ADHD - Free Parent and Guardian Workshop (Spring 2023) || NOT Relevant
+! https://events.umich.edu/event/105862 Arab-American History Month Workshop: Learning Ramadan with Iftar and a Conversation || RELEVANT (Iftar)
+- https://events.umich.edu/event/104548 SpringFest 2023 || NOT Relevant
+- https://events.umich.edu/event/103266 The Queer World Conversations || NOT Relevant
+- https://events.umich.edu/event/103254 MPSDS JPSM Seminar Series - Using Synergies Between Survey Statistics and Causal Inference to Improve Transportability of Clinical Trials || NOT Relevant
+# https://events.umich.edu/event/106573 Special Interdisciplinary QC-CM Seminar | Manipulating Light-Matter Interactions in Structured Dielectric Media || NOT relevant
+! https://events.umich.edu/event/107379 Science Success Series | Study Break || RELEVANT (Free coloring)
+! https://events.umich.edu/event/104262 Career Connections Support Series || RELEVANT (light refreshments)
+! https://events.umich.edu/event/103218 Informs & HFES Weekly Coffee Chat || RELEVANT (coffee) 
+- https://events.umich.edu/event/104417 Science Success Series | The Gifts of Imperfection: Guideposts for Wholehearted Living || NOT Relevant
+- https://events.umich.edu/event/107182 DCMB / CCMB Weekly Seminar || NOT Relevant
+! https://events.umich.edu/event/103309 TDLS Power to the Students: The Impact of Activism at U-M || RELEVANT (swag and cupcakes)
+! https://events.umich.edu/event/105949 RObotics presents The Testing Lab: Exoskeletons || RELEVANT (swag giveaway)
+! https://events.umich.edu/event/105989 Science Café || RELEVANT (hors d’oeuvres)
+- https://events.umich.edu/event/105982 Winter Walks || NOT Relevant
+- https://events.umich.edu/event/105863 DPE 50TH Night at Yost || NOT Relevant
+! https://events.umich.edu/event/107416 Michigan Meetups: Watercoloring || RELEVANT (watercolor pictures)
+- https://events.umich.edu/event/105855 Mind Matters webinar: Interventional Psychiatry & Emerging Therapies || NOT Relevant
+- https://events.umich.edu/event/106988 WSN Trivia Night || NOT Relevant
+- https://events.umich.edu/event/107141 EPID Seminar Series || NOT Relevant
+* https://events.umich.edu/event/105943 Next Stop: Grad School || RELEVANT (lunch provided)
+- https://events.umich.edu/event/106285 Oral Health Sciences Seminar Series || NOT Relevant
+- https://events.umich.edu/event/107260 MICDE Ph.D. Student Seminar: Mingyan Tian || NOT Relevant
+- https://events.umich.edu/event/106883 Responsible Data Science and AI mini-symposium || NOT Relevant
+! https://events.umich.edu/event/97246 Hopwood Tea || RELEVANT (coffee, tea)
+- https://events.umich.edu/event/107380 The 2023 Captain Ralph R. & Florence Peachman Lecture || NOT Relevant
+! https://events.umich.edu/event/107179 Dean Gallimore’s End of Year Address and Q&A || RELEVANT (refreshments)
+- https://events.umich.edu/event/107047 INFORMS Potluck || NOT Relevant
+! https://events.umich.edu/event/103043 La Tertulia || RELEVANT (free coffee and snacks)
+- https://events.umich.edu/event/106799 Understanding and Addressing Racial Inequalities in Lupus || NOT Relevant
+! https://events.umich.edu/event/103739 Pause-Café || RELEVANT (free coffee)
+- https://events.umich.edu/event/88544 Heartfulness Guided Meditation || NOT Relevant
+- https://events.umich.edu/event/106478 Mid-Day Morsels Tour | Images of Women in the Ancient World || NOT Relevant
+- https://events.umich.edu/event/103308 FAM Fridays || NOT Relevant
+! https://events.umich.edu/event/107381 “Did This All Mean Something?”: LSWA Mural Unveiling || RELEVANT (refreshments)
+- https://events.umich.edu/event/107424 It’s Due at 11:59, Finals Season! || NOT Relevant
+- https://events.umich.edu/event/106991 John Sayles on Welles and Altman || NOT Relevant
+! https://events.umich.edu/event/107417 Michigan Meetups: Drawing || RELEVANT (drawings)
+! https://events.umich.edu/event/107142 Sewing Workshop || RELEVANT (tea and hot cocoa)
+- https://events.umich.edu/event/107454 Michigan Meetups: Lofi & Study || NOT Relevant
+! https://events.umich.edu/event/106200 RC Creative Writing Program Honors Thesis Reading || RELEVANT (refreshments)
+! https://events.umich.edu/event/106465 Feel Good Fridays at UMMA || RELEVANT (make ceramics)
+- https://events.umich.edu/event/102897 SAS Open House || NOT Relevant
+- https://events.umich.edu/event/105053 Saturday Morning Physics | The History of the Mystery of Spin: In Celebration of Homer A. Neal || NOT Relevant
+- https://events.umich.edu/event/105988 Scientist Spotlight || NOT Relevant
+- https://events.umich.edu/event/106480 Virtual Saturday Sampler | Ancient Natural Disasters || NOT Relevant
+* https://events.umich.edu/event/105942 Sunday Study Day & Movie Matinee || RELEVANT (free coffee)
+! https://events.umich.edu/event/106434 Planet Party || RELEVANT (giveaways)
+- https://events.umich.edu/event/106481 Sunday Drop-In Tour | Highlights of the Kelsey Museum || NOT Relevant
+- https://events.umich.edu/event/105927 Science of Happiness - According to Yoga and Vedanta || NOT Relevant
+# https://events.umich.edu/event/103009 WSN Self-Care Sunday || NOT Relevant
+- https://events.umich.edu/event/96562 James Kibbie: The Complete Organ Works of J.S. Bach Final Program || NOT Relevant
+- https://sessions.studentlife.umich.edu/track/event/session/61567 Religious, Spiritual, and Secular Identities on Campus || NOT Relevant
+- https://sessions.studentlife.umich.edu/track/event/12582 Resource Navigators Appointments | Winter 2023 || NOT Relevant
+- https://sessions.studentlife.umich.edu/track/event/session/64797 SPH DEI Reading Circle - Viral Justice || NOT Relevant
+- https://sessions.studentlife.umich.edu/track/event/11684 PaWWs and Relax: Wellness Pet Visits 2022-23 [Tuesdays 12-1pm with Hawkeye] || NOT Relevant
+- https://sessions.studentlife.umich.edu/track/event/13104 2023 University of Michigan Healthcare Equity Month  || NOT Relevant
+- https://sessions.studentlife.umich.edu/track/event/session/65146 dije Featured Speakers - In Pursuit of Abolition: Campus and Community Safety Beyond the Project of Policing || NOT Relevant
+- https://sessions.studentlife.umich.edu/track/event/11329 Maize & Blue Cupboard Volunteering || NOT Relevant
+! https://sessions.studentlife.umich.edu/track/event/session/65118 Winter 2023 Birthday Celebration || RELEVANT (sweet treat)
+- https://sessions.studentlife.umich.edu/track/event/12849 First Year Experience Michigan Meetups Winter 2023 || NOT Relevant
+- https://sessions.studentlife.umich.edu/track/event/12765 Coaching Corner Winter 2023 || NOT Relevant
+- https://sessions.studentlife.umich.edu/track/event/session/64563 Global Wolverines: Preparing You to Have a Successful International Experience || NOT Relevant
+- https://sessions.studentlife.umich.edu/track/event/12540 Winter 2023 Spanish Placement & Validation || NOT Relevant
+! https://sessions.studentlife.umich.edu/track/event/session/64890 Voices of the Cupboard Dinner || RELEVANT
+- https://sessions.studentlife.umich.edu/track/event/13156 IPE Winter Study Abroad 101 Info Sessions || NOT Relevant
+- https://sessions.studentlife.umich.edu/track/event/13212 Vision 2034: Town Halls || NOT Relevant
+! https://sessions.studentlife.umich.edu/track/event/session/61548 Winter 2023: Health Sciences Well-Being & Academic Success Series || RELEVANT
+- https://sessions.studentlife.umich.edu/track/event/session/61863 Ready, Set, Start April || NOT Relevant
+- https://sessions.studentlife.umich.edu/track/event/13221 ITS DEI 2.0 Focus Groups || NOT Relevant
+! https://sessions.studentlife.umich.edu/track/event/session/65157 Science Success Series | Study Break || RELEVANT (pictures)
+- https://sessions.studentlife.umich.edu/track/event/session/63128 Science Success Series | The Gifts of Imperfection: Guideposts for Wholehearted Living || NOT Relevant
+- https://sessions.studentlife.umich.edu/track/event/session/61818 22-23 Trotter Distinguished Leadership Series 🎤 || NOT Relevant
+- https://sessions.studentlife.umich.edu/track/event/session/64533 Parent & Family Engagement Virtual Conversation Series || NOT Relevant
+- https://sessions.studentlife.umich.edu/track/event/session/63475 Online Arabic placement test_April 13 (11am-2pm)  || NOT Relevant
+- https://sessions.studentlife.umich.edu/track/event/session/64471 Peace Corps Lunch Chat || NOT Relevant
+- https://sessions.studentlife.umich.edu/track/event/13105 ONSF: Intro to UK Scholarships 2023 || NOT Relevant
+! https://sessions.studentlife.umich.edu/track/event/session/64963 [RSG x GRIN] AAPI Heritage Month Events  || RELEVANT (refreshments)
+- https://sessions.studentlife.umich.edu/track/event/session/61925 New Organization Orientation || NOT Relevant
+! https://sessions.studentlife.umich.edu/track/event/session/65132 Dinners for Democracy || RELEVANT (giveaway)
+! https://sessions.studentlife.umich.edu/track/event/session/63078 The Dr. John Lamont Peterson Annual Research Symposium || RELEVANT (lunch)
+- https://sessions.studentlife.umich.edu/track/event/session/58665 Senior Exhibition Soft Opening 2023 || NOT Relevant
+- https://sessions.studentlife.umich.edu/track/event/11541 Munger Graduate Residences (2022-2023) || NOT Relevant
+- https://sessions.studentlife.umich.edu/track/event/session/65186 [UM Student Run Free Clinic] Insurance & Referral Counselor Information Session  || NOT Relevant
+- https://sessions.studentlife.umich.edu/track/218 CPR/AED/First Aid Certification  || NOT Relevant

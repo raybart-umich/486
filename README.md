@@ -1,5 +1,5 @@
 # EECS 486 Final Project - Freebie Finder
-<http://martinvv.pythonanywhere.com/>
+<https://www.umichfreebies.com/>
 
 You can check out FreebieFinder at any time at the link above. However, if you wish to run FreebieFinder locally for any reason, you can simply follow our instructions below.
 
